@@ -29,7 +29,6 @@ class CurrencyStore {
   };
 
   @action saveAppState = async () => {
-    console.log('saveAppState');
     const appState = {
       rates: this.rates,
       leftAmount: this.leftAmount,
